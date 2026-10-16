@@ -11,6 +11,37 @@ A native Quest app for viewing Herdr agent sessions in movable windows. Built wi
 - SSH host verification and per-headset keys. Live observation is read-only by default; text submission is an explicit pairing option.
 - Per-session drafts using the system keyboard or a physical keyboard. Dictation uses the system keyboard microphone when the headset provides it.
 
+## Screenshots
+
+Actual app UI rendered in an Android emulator with synthetic demo sessions. These captures show the panels; their placement in the Quest environment is controlled on the headset.
+
+![Dashboard with workspace navigation, session previews and status colours](docs/screenshots/dashboard.png)
+
+<details>
+<summary>Session windows, settings and gesture guide</summary>
+
+**Single session** — a compact title bar and controls leave room for session content.
+
+![Single demo session with its text view and prompt field](docs/screenshots/session.png)
+
+**Tab group** — switch between sessions within one window.
+
+![Two demo sessions grouped as tabs in one window](docs/screenshots/tab-group.png)
+
+**Workspace window** — browse a workspace in its own panel.
+
+![Separate workspace panel containing its demo session tiles](docs/screenshots/workspace.png)
+
+**Settings** — connection, presentation and layout controls.
+
+![Settings sheet with background, restore and demo controls](docs/screenshots/settings.png)
+
+**Gesture guide** — instructions for opening, grouping and resizing panels in immersive mode.
+
+![Illustrated gesture guide for arranging sessions](docs/screenshots/gesture-guide.png)
+
+</details>
+
 ## Build and install
 
 Requirements: JDK 17, Android SDK platform 35, Python 3 for the bridge/tests, and a Quest 3 or 3S with Horizon OS 69 or later. Set `ANDROID_HOME` to your SDK location (or use an ignored `local.properties`). The first build needs network access to download dependencies.
