@@ -1,0 +1,180 @@
+{
+  "serverIdentity": "example-server-generation",
+  "catalog": {
+    "id": "cli:agent:list",
+    "result": {
+      "agents": [
+        {
+          "agent": "codex",
+          "agent_status": "done",
+          "cwd": "/example/projects/project-1",
+          "focused": false,
+          "pane_id": "w1:p1",
+          "revision": 40,
+          "state_change_seq": 27,
+          "tab_id": "w1:t1",
+          "terminal_id": "term_example_1",
+          "workspace_id": "w1",
+          "terminal_title_stripped": "Example task 1"
+        },
+        {
+          "agent": "claude",
+          "agent_status": "done",
+          "cwd": "/example/projects/project-2",
+          "focused": false,
+          "pane_id": "w2:p1",
+          "revision": 2,
+          "state_change_seq": 98,
+          "tab_id": "w2:t1",
+          "terminal_id": "term_example_2",
+          "workspace_id": "w2",
+          "terminal_title_stripped": "Example task 2"
+        },
+        {
+          "agent": "kiro",
+          "agent_status": "idle",
+          "cwd": "/example/projects/project-3",
+          "focused": false,
+          "pane_id": "w2:p2",
+          "revision": 0,
+          "state_change_seq": 90,
+          "tab_id": "w2:t2",
+          "terminal_id": "term_example_3",
+          "workspace_id": "w2",
+          "terminal_title_stripped": "Example task 3"
+        },
+        {
+          "agent": "claude",
+          "agent_status": "done",
+          "cwd": "/example/projects/project-4",
+          "focused": false,
+          "pane_id": "w3:p1",
+          "revision": 5,
+          "state_change_seq": 94,
+          "tab_id": "w3:t1",
+          "terminal_id": "term_example_4",
+          "workspace_id": "w3",
+          "terminal_title_stripped": "Example task 4"
+        },
+        {
+          "agent": "claude",
+          "agent_status": "idle",
+          "cwd": "/example/projects/project-5",
+          "focused": true,
+          "pane_id": "w3:p2",
+          "revision": 2,
+          "state_change_seq": 102,
+          "tab_id": "w3:t2",
+          "terminal_id": "term_example_5",
+          "workspace_id": "w3",
+          "terminal_title_stripped": "Example task 5"
+        },
+        {
+          "agent": "kiro",
+          "agent_status": "idle",
+          "cwd": "/example/projects/project-6",
+          "focused": false,
+          "pane_id": "w3:p3",
+          "revision": 0,
+          "state_change_seq": 100,
+          "tab_id": "w3:t3",
+          "terminal_id": "term_example_6",
+          "workspace_id": "w3",
+          "terminal_title_stripped": "Example task 6"
+        },
+        {
+          "agent": "claude",
+          "agent_status": "idle",
+          "cwd": "/example/projects/project-7",
+          "focused": false,
+          "pane_id": "w4:p1",
+          "revision": 1,
+          "state_change_seq": 18,
+          "tab_id": "w4:t1",
+          "terminal_id": "term_example_7",
+          "workspace_id": "w4",
+          "terminal_title_stripped": "Example task 7"
+        },
+        {
+          "agent": "claude",
+          "agent_status": "idle",
+          "cwd": "/example/projects/project-8",
+          "focused": false,
+          "pane_id": "w4:p2",
+          "revision": 1,
+          "state_change_seq": 19,
+          "tab_id": "w4:t2",
+          "terminal_id": "term_example_8",
+          "workspace_id": "w4",
+          "terminal_title_stripped": "Example task 8"
+        },
+        {
+          "agent": "claude",
+          "agent_status": "idle",
+          "cwd": "/example/projects/project-9",
+          "focused": false,
+          "pane_id": "w5:p1",
+          "revision": 2,
+          "state_change_seq": 82,
+          "tab_id": "w5:t1",
+          "terminal_id": "term_example_9",
+          "workspace_id": "w5",
+          "terminal_title_stripped": "Example task 9"
+        },
+        {
+          "agent": "claude",
+          "agent_status": "idle",
+          "cwd": "/example/projects/project-10",
+          "focused": false,
+          "pane_id": "w5:p2",
+          "revision": 1,
+          "state_change_seq": 47,
+          "tab_id": "w5:t2",
+          "terminal_id": "term_example_10",
+          "workspace_id": "w5",
+          "terminal_title_stripped": "Example task 10"
+        },
+        {
+          "agent": "claude",
+          "agent_status": "idle",
+          "cwd": "/example/projects/project-11",
+          "focused": false,
+          "pane_id": "w6:p1",
+          "revision": 2,
+          "state_change_seq": 60,
+          "tab_id": "w6:t1",
+          "terminal_id": "term_example_11",
+          "workspace_id": "w6",
+          "terminal_title_stripped": "Example task 11"
+        },
+        {
+          "agent": "claude",
+          "agent_status": "done",
+          "cwd": "/example/projects/project-12",
+          "focused": false,
+          "pane_id": "w6:p2",
+          "revision": 2,
+          "state_change_seq": 64,
+          "tab_id": "w6:t2",
+          "terminal_id": "term_example_12",
+          "workspace_id": "w6",
+          "terminal_title_stripped": "Example task 12"
+        },
+        {
+          "agent": "claude",
+          "agent_status": "done",
+          "cwd": "/example/projects/project-13",
+          "focused": false,
+          "pane_id": "w6:p3",
+          "revision": 2,
+          "state_change_seq": 63,
+          "tab_id": "w6:t3",
+          "terminal_id": "term_example_13",
+          "workspace_id": "w6",
+          "terminal_title_stripped": "Example task 13"
+        }
+      ],
+      "type": "agent_list"
+    }
+  }
+}

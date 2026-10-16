@@ -1,0 +1,39 @@
+# Local build state and IDE configuration
+.gradle/
+.kotlin/
+.local-build/
+build/
+**/build/
+local.properties
+.idea/
+*.iml
+.DS_Store
+__pycache__/
+*.py[cod]
+.venv/
+# Credentials, signing material and local connection exports
+.env
+.env.*
+*.jks
+*.keystore
+*.p12
+*.pfx
+*.pem
+*.key
+*.pub
+id_rsa*
+id_ed25519*
+authorized_keys
+known_hosts
+agentspace-device-key.json
+# Private captures and generated distributions
+work/
+outputs/
+private/
+captures/
+**/*-results/
+*.log
+*.apk
+*.aab
+*.zip
+*.hprof
